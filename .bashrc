@@ -8,7 +8,7 @@ case $- in
       *) return;;
 esac
 
-SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+SCRIPTPATH="$( cd "$(dirname -- "$0")" ; pwd -P )"
 if [ -f ~/.git-prompt ]; then
 	source ~/.git-prompt
 fi
