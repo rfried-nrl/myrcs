@@ -1,5 +1,5 @@
 # List of packages to get on every new machine
-sudo apt-get install cmake silversearcher-ag tree git manpages-dev manpages-posix-dev tmux tcputils exuberant-ctags minicom gvim curl u-boot-tools p7zip-full device-tree-compiler python-pip flex bison astyle ripgrep git-secret
+sudo apt-get install cmake silversearcher-ag tree git manpages-dev manpages-posix-dev tmux tcputils exuberant-ctags minicom curl u-boot-tools p7zip-full unzip device-tree-compiler python3-pip flex bison astyle ripgrep git-secret
 sudo apt-get purge modemmanager
 
 pip maybe
