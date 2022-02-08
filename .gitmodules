@@ -25,3 +25,5 @@
 [submodule "extra/autojump"]
 	path = extra/autojump
 	url = https://github.com/wting/autojump.git
+[submodule "extra/PathPicker/"]
+	branch = origin/main
