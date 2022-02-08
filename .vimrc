@@ -31,7 +31,9 @@ set hidden
 set nocp
 syntax on
 filetype plugin indent on
-colorscheme monokai
+"colorscheme monokai
+colorscheme gruvbox
+set background=dark
 set wildmenu
 set showcmd
 syn on se title
@@ -289,3 +291,8 @@ try
     set undofile
 catch
 endtry
+
+"augroup fix_ycm_screen
+"  autocmd!
+"  autocmd CompleteDone * redraw!
+"augroup end
