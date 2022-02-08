@@ -34,7 +34,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'kshenoy/vim-signature'
 Plugin 'wikitopian/hardmode'
 Plugin 'majutsushi/tagbar'
-Plugin 'vivien/vim-linux-coding-style'
+Plugin 'mellowcandle/vim-linux-coding-style'
 Plugin 'embear/vim-localvimrc'
 Plugin 'tpope/vim-vinegar.git'
 Plugin 'mileszs/ack.vim'
@@ -43,8 +43,10 @@ Plugin 'airblade/vim-rooter'
 Plugin 'vim-scripts/VisIncr'
 Plugin 'vim-scripts/YankRing.vim'
 Plugin 'zxqfl/tabnine-vim'
-Plugin 'Valloric/YouCompleteMe'
-"
+Plugin 'martinda/Jenkinsfile-vim-syntax'
+Plugin 'morhetz/gruvbox'
+Plugin 'justinmk/vim-syntax-extra'"
+Plugin 'tpope/vim-sensible'
 " All of your Plugins must be added before the following line
 
 call vundle#end()            " required
