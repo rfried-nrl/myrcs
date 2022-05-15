@@ -267,6 +267,8 @@ let g:ack_use_dispatch = 1
 "-----------------------
 " auto-format customization
 " ----------------------
+let g:linuxsty_patterns = [ "/linux/", "/u-boot/" ]
+let g:EditorConfig_exclude_patterns = ['fugitive://.*']
 
 " Enable debugging
 " let g:autoformat_verbosemode=1
