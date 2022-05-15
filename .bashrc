@@ -195,6 +195,11 @@ function fixup()
     EDITOR=true git commit --fixup $1 && git rebase -i $1~ --autosquash
 }
 
+function pam()
+{
+    curl $@ | git am --3way
+}
+
 alias gsr='git --no-pager show -s --abbrev-commit --abbrev=12 --pretty=format:"Fixes: %h (\"%s\")%n"'
 alias cdw='cd ~/dev'
 alias groot='cd $(git root)'
