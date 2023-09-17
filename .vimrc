@@ -93,6 +93,7 @@ nnoremap <F4> :NERDTreeToggle<CR>
 nnoremap <silent> <F6> :ToggleBufExplorer<CR>
 nmap	 <F7> :TagbarToggle<CR>
 nnoremap <F8> :call ToggleSyntastic()<CR>
+map <F9> :YcmCompleter FixIt<CR>
 vmap <silent> <F10> <Plug>NERDCommenterToggle
 nmap <silent> <F10> <Plug>NERDCommenterToggle
 nnoremap <silent> <F11> :YRShow<CR>
