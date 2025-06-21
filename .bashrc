@@ -25,10 +25,10 @@ fi
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=10000
-HISTFILESIZE=20000
+HISTSIZE=80000
+HISTFILESIZE=80000
 HISTCONTROL=ignoredups:erasedups
-HISTIGNORE='&:ls:ll:la:cd:exit:clear:history'
+HISTIGNORE='&:ls:ll:la:exit:clear:history'
 EDITOR=vim
 
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
